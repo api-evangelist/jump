@@ -1,8 +1,13 @@
 aid: jump
 name: Jump
-description: Jump is a company surfaced as a portfolio company of battery-ventures, forerunner-ventures,
-  index-ventures, menlo-ventures and added to the API Evangelist network as a stub for enrichment. This
-  profile is a lead awaiting the enrichment pipeline.
+description: Jump is a unified fan experience and ticketing platform built exclusively for professional
+  sports teams. It combines primary and resale ticketing, team-branded mobile apps and websites, marketing
+  and messaging, loyalty, fan identity and wallet, point-of-sale and scanning, dynamic pricing, and a
+  unified fan-data foundation into a single system that teams own and control. Jump also embeds agentic
+  AI agents to automate pricing, inventory, and revenue operations. It serves teams across the NBA, MLB,
+  WNBA, NWSL, USL, and NCAA and is backed by Battery Ventures, Forerunner Ventures, Index Ventures, and
+  Menlo Ventures. Jump connects to the tools teams already use through integration APIs, but publishes
+  no public developer portal, OpenAPI, or self-serve API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/jump/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,11 +18,30 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6620094ee446b5040f183aed/6865a7c9b810980812aca69d_Why.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Sports
+- Ticketing
+- Fan Experience
+- Events
+- Marketing
+- Loyalty
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/jump-domain-security.yml
 - type: Website
   url: https://jump.com
+- type: PrivacyPolicy
+  url: https://www.jump.com/privacy-security
+- type: TermsOfService
+  url: https://www.jump.com/legal
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
