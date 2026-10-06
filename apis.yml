@@ -43,7 +43,7 @@ accessModel:
 image: https://cdn.prod.website-files.com/6620094ee446b5040f183aed/6865a7c9b810980812aca69d_Why.png
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Sports
@@ -69,6 +69,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.jump.com/news
+  type: Blog
 - type: DomainSecurity
   url: security/jump-domain-security.yml
 - type: Website
